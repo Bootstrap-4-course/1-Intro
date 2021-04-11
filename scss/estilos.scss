@@ -1,3 +1,14 @@
-.encabezado{
-    display: flex;
+//--------------------------------------------
+//              PATRON DE COLORES
+//--------------------------------------------
+
+$texto:red;
+$principal:pink;
+$secundario:orange;
+
+
+body{
+    background: $principal;
+    color: $texto;
+    border: 5px solid $secundario;
 }
