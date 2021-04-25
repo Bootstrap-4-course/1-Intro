@@ -1,4 +1,24 @@
+# 1- Intro bootstrap
+
+0. [Requisitos](#schema0)
 1. [Intro ](#schema1)
+2. [Todo incluido](#schema2)
+3. [Instalación Koala](#schema3)
+4. [¿Por qué Bootstrap? y novedades](#schema4)
+5. [Instalación con CDN](#schema5)
+6. [Instalación en local](#schema6)
+7. [Guía rápida](#schema7)
+
+<hr>
+
+<a name="schema0"></a>
+
+# 0. Requisitos
+- Navegador web moderno
+- Editor de código
+- Preprocesador CSS =>Koala
+- Extension chrome `live-page`
+
 
 <hr>
 
@@ -17,6 +37,8 @@ En este curso vamos aprender desde 0, todos los secretos de `Bootstrap 4`. Conoc
 # 2. Todo incluido
 
 ![img](./images/001.png)
+
+
 <hr>
 
 <a name="schema3"></a>
@@ -24,10 +46,25 @@ En este curso vamos aprender desde 0, todos los secretos de `Bootstrap 4`. Conoc
 # 3. Instalación Koala
 [Koala](http://koala-app.com/)
 
-Si no me funciona, lo hacemos por terminal
+Koala convierte un archivo scss a css.
+## Preprocesador SASS
+
+Creamos una carpeta donde estarán los archivos scss y un estilos.scss de ejemplo.
+
+Koala permite procesar los archivos scss y generar los archivos css necesarios. Debemos establecer la carpeta destino y autoprefx para propiedades que necesiten el prefijo para navegadores antigüos
+
+En caso de que no funcione koala debemos instalar sass
+
+~~~bash
+npm i -g sass
+~~~
+
+y ejecutarlo por línea de comandos:
+
 ~~~bash
 sass scss:css --watch
 ~~~
+
 
 <hr>
 
@@ -39,6 +76,15 @@ Rápida y gran comunidad de usuarios
 
 ![img](./images/004.png)
 ![img](./images/005.png)
+## Novedades Bootstrap 4
+
+- Pensado en Mobile First y Responsive.
+- No hay soporte para IE8.
+- Uso de unidades REM y EM.
+- Abandono de Glyphicon
+- Mejor sistema de columnas.
+- Soporte para Flexbox
+- Nuevos componentes
 
 <hr>
 
@@ -116,10 +162,10 @@ Cargamos el archivo `bootstrap.min.js` desde nuestra red local
 <script src="./js/bootstrap.min.js"></script>
 ~~~
 
+<hr>
 
+<a name="schema7"></a>
 
+# 7.Guía rápida
 
-
-
-## Recursos
 https://hackerthemes.com/bootstrap-cheatsheet/
